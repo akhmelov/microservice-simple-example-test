@@ -23,6 +23,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="accounts-service" />
+        <module name="add-service" />
         <module name="edit-service" />
         <module name="spring-config" />
         <module name="spring-eureka" />

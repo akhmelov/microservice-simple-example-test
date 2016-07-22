@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/spring-config/pom.xml" />
         <option value="$PROJECT_DIR$/accounts-service/pom.xml" />
         <option value="$PROJECT_DIR$/edit-service/pom.xml" />
+        <option value="$PROJECT_DIR$/add-service/pom.xml" />
       </list>
     </option>
   </component>
