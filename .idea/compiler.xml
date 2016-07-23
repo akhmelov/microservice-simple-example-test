@@ -24,6 +24,7 @@
         <processorPath useClasspath="true" />
         <module name="accounts-service" />
         <module name="add-service" />
+        <module name="common" />
         <module name="edit-service" />
         <module name="spring-config" />
         <module name="spring-eureka" />
@@ -32,6 +33,7 @@
     <bytecodeTargetLevel>
       <module name="accounts-service" target="1.8" />
       <module name="add-service" target="1.8" />
+      <module name="common" target="1.5" />
       <module name="demo" target="1.8" />
       <module name="edit-service" target="1.8" />
       <module name="spring-config" target="1.8" />

@@ -1,9 +1,8 @@
 package com.example.controller;
 
+import common.model.User;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * Created by akhmelov on 7/20/16.
@@ -16,9 +15,9 @@ public class IndexController {
         return "index";
     }
 
-    @RequestMapping("/message")
+    @RequestMapping(value = "/message", method = RequestMethod.PUT)
     @ResponseBody
-    public boolean putMessage(@RequestParam String message){
+    public boolean putMessage(@RequestBody User user){
         return true;
     }
 }

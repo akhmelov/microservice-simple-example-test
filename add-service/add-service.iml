@@ -168,5 +168,6 @@
     <orderEntry type="library" name="Maven: org.webjars:angularjs:1.5.7" level="project" />
     <orderEntry type="library" name="Maven: org.webjars.bower:bootstrap:3.3.6" level="project" />
     <orderEntry type="library" name="Maven: org.webjars.bower:jquery:2.0.0" level="project" />
+    <orderEntry type="module" module-name="common" />
   </component>
 </module>
