@@ -1,0 +1,4 @@
+zuul:
+  routes:
+    add-service: /add/**
+    edit-service: /edit/**
