@@ -6,6 +6,8 @@ spring:
        server:
          native:
            searchLocations: classpath:/config
+  profiles:
+     active: native
 
 # Discovery Server Access
 eureka:

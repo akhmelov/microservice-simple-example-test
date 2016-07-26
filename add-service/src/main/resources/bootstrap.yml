@@ -1,8 +1,15 @@
 spring:
   application:
-     name: edit-service
+     name: add-service
   thymeleaf:
     mode: LEGACYHTML5
+  cloud:
+    config:
+      enabled: true
+      failFast: true
+      discovery:
+        enabled: true
+        serviceId: spring-config
 
 # Discovery Server Access
 eureka:
@@ -16,5 +23,10 @@ eureka:
 
 # HTTP Server
 server:
-  port: 8082   # HTTP (Tomcat) port
-  contextPath: /test1/test3
+  port: 8081   # HTTP (Tomcat) port
+  contextPath: /test1/test2
+
+
+edit-service:
+  ribbon:
+    DeploymentContextBasedVipAddresses: edit-service
