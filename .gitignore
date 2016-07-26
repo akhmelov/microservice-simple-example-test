@@ -10,8 +10,8 @@
 
 *.mvn
 *.iml
-mvnm
-mvnm.cmd
+*mvnm
+*mvnm.cmd
 .idea/
 target/
 
