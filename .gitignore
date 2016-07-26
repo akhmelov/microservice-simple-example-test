@@ -12,7 +12,7 @@
 *.iml
 mvnm
 mvnm.cmd
-mvnm
+mvnw
 mvnw.cmd
 .idea/
 target/
