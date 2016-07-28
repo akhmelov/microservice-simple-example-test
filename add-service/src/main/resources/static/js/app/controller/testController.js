@@ -6,7 +6,7 @@ myApp.controller('TestController',
             $scope.users = [];
             $scope.addUser = function(){
                 $scope.users.push(JSON.parse(JSON.stringify($scope.user)));
-                $http.put('message', $scope.user).then(
+                $http.put('user', $scope.user).then(
                   function(respone){
                     console.debug(respone);
                   }, function (respone) {

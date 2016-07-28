@@ -1,3 +1,7 @@
 
 test:
   one: test local
+
+edit-service:
+  ribbon:
+    DeploymentContextBasedVipAddresses: edit-service

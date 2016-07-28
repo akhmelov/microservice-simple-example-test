@@ -19,14 +19,14 @@ public class IndexController {
     @Value("${reply.message}")
     private String message;
 
-    @RequestMapping("/")
+    @RequestMapping("/index/test1")
     public String index(){
         return "index";
     }
 
-    @RequestMapping(value = "/message", method = RequestMethod.PUT)
+    @RequestMapping(value = "/user", method = RequestMethod.PUT)
     @ResponseBody
-    public boolean putMessage(@RequestBody User user){
+    public boolean putUser(@RequestBody User user){
         usersRepositoryService.addUser(user);
         return true;
     }

@@ -1,4 +1,12 @@
 zuul:
   routes:
-    add-service: /add/**
-    edit-service: /edit/**
+    add-service:
+      path: /add/**
+      serviceId: add-service
+    edit-service1:
+      path: /edit/**
+      url: http://localhost:8082
+
+loggin:
+  level:
+    org.springframework.boot: DEBUG

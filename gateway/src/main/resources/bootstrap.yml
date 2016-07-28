@@ -20,3 +20,6 @@ spring:
       discovery:
         enabled: true
         serviceId: spring-config
+
+info:
+    component: Zuul Server test

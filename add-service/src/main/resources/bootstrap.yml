@@ -27,6 +27,3 @@ server:
   contextPath: /test1/test2
 
 
-edit-service:
-  ribbon:
-    DeploymentContextBasedVipAddresses: edit-service
