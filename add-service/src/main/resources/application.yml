@@ -5,3 +5,8 @@ test:
 edit-service:
   ribbon:
     DeploymentContextBasedVipAddresses: edit-service
+
+
+web:
+  proxy:
+    path: /app
